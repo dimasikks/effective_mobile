@@ -1,0 +1,9 @@
+[Unit]
+Description=timer for start proccess
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+
+[Install]
+WantedBy=timers.target

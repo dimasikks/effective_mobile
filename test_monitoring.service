@@ -1,0 +1,7 @@
+[Unit]
+Description=test_monitoring
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/test_monitoring.sh
+Restart=no
